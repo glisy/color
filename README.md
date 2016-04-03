@@ -19,18 +19,16 @@ $ clib install glisy/color --save
 
 int
 main (void) {
-  GlisyUniform uColor;
   GlisyColor color;
   vec3 rgb;
 
   // init color
-
   glisyColorInit(&color, "blue", 0);
+
   // set vec3
   vec3_set(rgb, color.r, color.g, color.b);
 
-  // do something with vec3 rgb
-  // ...
+  // do something with rgb vec...
 
   return 0;
 }
