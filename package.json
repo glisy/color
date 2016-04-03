@@ -1,0 +1,17 @@
+{
+  "name": "glisy/color",
+  "version": "0.0.1",
+  "repo": "glisy/color",
+  "description": "Glisy color library",
+  "keywords": [
+    "glisy",
+    "color"
+  ],
+  "src": [
+    "include/glisy/color.h",
+    "src/color.c"
+  ],
+  "dependencies": {
+    "clibs/rgba": "0.0.1"
+  }
+}
