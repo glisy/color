@@ -25,7 +25,7 @@ main (void) {
 
   // init color
 
-  GlisyColorInit(&color, "blue", 0);
+  glisyColorInit(&color, "blue", 0);
   // set vec3
   vec3_set(rgb, color.r, color.g, color.b);
 

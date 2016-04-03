@@ -16,13 +16,13 @@ struct GlisyColor {
 };
 
 void
-GlisyColorInit(GlisyColor *color, const char *name, uint32_t value);
+glisyColorInit(GlisyColor *color, const char *name, uint32_t value);
 
 const char *
-GlisyColorToString(const GlisyColor color);
+glisyColorToString(const GlisyColor color);
 
 const char *
-GlisyColorToName(const GlisyColor color);
+glisyColorToName(const GlisyColor color);
 
 #ifdef __cplusplus
 }
