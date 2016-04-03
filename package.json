@@ -1,6 +1,6 @@
 {
   "name": "glisy/color",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repo": "glisy/color",
   "description": "Glisy color library",
   "keywords": [
@@ -12,6 +12,6 @@
     "src/color.c"
   ],
   "dependencies": {
-    "clibs/rgba": "0.0.1"
+    "clibs/rgba": "master"
   }
 }
