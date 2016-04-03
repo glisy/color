@@ -1,7 +1,5 @@
 GlisyColor
-=========
-
-Glisy color library
+==========
 
 ## Installation
 
